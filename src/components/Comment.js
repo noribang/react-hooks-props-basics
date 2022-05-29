@@ -1,7 +1,15 @@
 import React from "react";
 
+// function Comment(props) {
+//   return <div className="comment">{props.commentText}</div>;
+// }
+
+// export default Comment;
+
 function Comment(props) {
-  return <div className="comment">{props.commentText}</div>;
+  console.log(props)
+  return <div className="comment">{props.commentText}</div>
+
 }
 
-export default Comment;
+export default Comment
